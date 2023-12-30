@@ -1,6 +1,8 @@
 # My Zodiac Sign Finder
 ![main image](/public/images/main2.png)
 
+![Deployed Site](https://my-zodiac-sign.onrender.com/)
+
 ## Introduction
 The Chinese zodiac is a cycle of twelve animal signs that represent different years. The particular animal assigned to a year depends on the lunar year of a person's birth. In this ancient system, each year in a 12-year cycle is associated with a specific animal.
 

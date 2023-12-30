@@ -25,7 +25,7 @@ const ZodiacCalculator = () => {
     const birthYear = new Date(date).getFullYear();
     const index = (birthYear - setYear) % 12;
     const animal = zodiacAnimals[index < 0 ? 12 + index : index];
-    const image = `/public/images/${animal}.png`;
+    const image = `/images/${animal}.png`;
     return { image, animal };
     // applies the modulo operator (%) with 12.
     // The result of this calculation will be a number between -11 and 11.
@@ -88,7 +88,7 @@ const ZodiacCalculator = () => {
           </div>
         </form>
       )}
-      {!showResult && <img src="/public/images/main2.png" alt="Main Image" />}
+      {!showResult && <img src="/images/main2.png" alt="Main Image" />}
       {showResult && zodiacData.animal && (
         <div>
           <p className="resultText">Your Chinese Zodia Sign is:</p>

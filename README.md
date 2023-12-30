@@ -30,9 +30,6 @@ This application is built with React.js & Javascript
 ## How to
 Insert your Birthday and click the `"Let's Check"` button.
 
-<video width="320" height="240" controls>
-  <source src="/public/videos/Zodiac Test Video.mp4" type="video/mp4">
-</video>
 Your Birthday Data won't be stored or used for any purpose.
 
 ## License

@@ -56,8 +56,8 @@ const ZodiacCalculator = () => {
                 color: "#8B5C45",
               }}
             >
-              {" "}
-              Enter Your Birthday{" "}
+         
+              Enter Your Birthday
             </p>
             <input
               type="date"
@@ -88,7 +88,7 @@ const ZodiacCalculator = () => {
           </div>
         </form>
       )}
-      {!showResult && <img src="/public/images/main.png" alt="Main Image" />}
+      {!showResult && <img src="/public/images/main2.png" alt="Main Image" />}
       {showResult && zodiacData.animal && (
         <div>
           <p className="resultText">Your Chinese Zodia Sign is:</p>

@@ -1,15 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
+import ZodiacCalculator from './Components/ZodiacCalculator';
 
 function App() {
 
 
   return (
-    <>
-      <h1>Hi YOUR_NAME!</h1>
-    </>
+    <div className="App">
+     <ZodiacCalculator/>
+    </div>
   );
 }
 

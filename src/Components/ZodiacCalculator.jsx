@@ -3,9 +3,9 @@ import React, { useState } from "react";
  
 
   const ZodiacCalculator = () => {
-
+     const [showResult, setShowResult] = useState(false);
      const [birthday, setBirthday] = useState("");
-     const [zodiacSign, setZodiacSign] = useState("");
+     const [zodiacData, setZodiacData] = useState({animal:"", image:""});
 
     const zodiacAnimals = [
       "Rat",
@@ -26,14 +26,19 @@ import React, { useState } from "react";
     const CalculatorFunction = (date) => {
       const birthYear = new Date(date).getFullYear();
       const index = (birthYear - setYear) % 12;
-      return zodiacAnimals[index < 0 ? 12 + index : index];
+      const animal = zodiacAnimals[index < 0 ? 12 + index : index];
+      const image = `/public/images/${animal}.png`
+      return {image, animal}
       // applies the modulo operator (%) with 12.
       // The result of this calculation will be a number between -11 and 11.
     };
 
     const handleSubmit = (e) => {
       e.preventDefault();
-      setZodiacSign(CalculatorFunction(birthday));
+      const result = CalculatorFunction(birthday);
+      setShowResult(true); 
+      setZodiacData(result);
+      
     };
 
 
@@ -50,9 +55,16 @@ import React, { useState } from "react";
             }}
           />
         </label>
-        <button type ="submit">Let's Check</button>
+        <button type="submit">Let's Check</button>
       </form>
-      {zodiacSign && <p>Your Chinese Zodia Sign is: {zodiacSign}</p>}
+
+      {!showResult && (<img src="/public/images/main.png" alt ="Main Image"/>)}
+      {showResult && zodiacData.animal && (
+        <div>
+          <p>Your Chinese Zodia Sign is:</p>
+          <img src={zodiacData.image} alt={zodiacData.animal}/>
+        </div>
+      )}
     </div>
   );
 };

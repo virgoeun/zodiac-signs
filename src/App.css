@@ -29,6 +29,10 @@ body {
     .ResultPart img {
         width: 330px; /* Or a fixed width like 300px */
     }
+    .resultText {
+  font-size: 25px;
+  font-style:italic;
+}
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {

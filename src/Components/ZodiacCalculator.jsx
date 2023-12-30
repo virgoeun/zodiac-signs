@@ -46,7 +46,16 @@ import React, { useState } from "react";
     <div className="ResultPart">
       <form onSubmit={handleSubmit}>
         <label>
-          Enter Your Birthday!
+          <p
+            style={{
+              fontSize: "25px",
+              paddingTop: "30px",
+              color: "#8B5C45",
+            }}
+          >
+            {" "}
+            Enter Your Birthday{" "}
+          </p>
           <input
             type="date"
             value={birthday}
@@ -55,16 +64,42 @@ import React, { useState } from "react";
             }}
           />
         </label>
-        <button type="submit">Let's Check</button>
+        <div>
+          <button
+            type="submit"
+            style={{
+              backgroundColor: "transparent",
+              backgroundImage:
+                "linear-gradient(45deg, rgba(255, 0, 0, 0.3), rgba(245, 222, 179, 0.3))",
+              border: "none",
+              padding: "10px 20px",
+              color: "black",
+              borderRadius: "5px",
+              cursor: "pointer",
+              marginTop: "10px",
+              fontSize: "16px",
+            }}
+          >
+            Let's Check
+          </button>
+        </div>
       </form>
 
-      {!showResult && (<img src="/public/images/main.png" alt ="Main Image"/>)}
+      {!showResult && <img src="/public/images/main.png" alt="Main Image" />}
       {showResult && zodiacData.animal && (
         <div>
-          <p>Your Chinese Zodia Sign is:</p>
-          <img src={zodiacData.image} alt={zodiacData.animal}/>
+          <p className="resultText">Your Chinese Zodia Sign is:</p>
+          <img src={zodiacData.image} alt={zodiacData.animal} />
         </div>
       )}
+      <div>
+        <p
+          className="datatext"
+          style={{ fontSize: "12px", paddingTop: "40px" }}
+        >
+          Your Birthday Data is neither stored nor used.
+        </p>
+      </div>
     </div>
   );
 };

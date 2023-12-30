@@ -1,10 +1,43 @@
-#root {
-  max-width: 1280px;
+
+ #root {
   margin: 0 auto;
-  padding: 2rem;
+  padding: 5rem;
   text-align: center;
+  
+}
+body {
+    font-family: 'Taviraj', serif;
+    color:rgb(149, 49, 49);
+   
 }
 
+.resultText {
+  font-size: 35px;
+  font-style:italic;
+}
+
+.ResultPart img {
+    width: 50%; /* Adjust this value to make the image smaller or larger */
+    height: auto; /* This maintains the aspect ratio */
+    margin: 0 auto;
+    padding: 20px; /* Center the image */
+    display: block; 
+    /* Ensures the image is block level for margin auto to work */
+}
+
+@media (max-width: 768px) {
+    .ResultPart img {
+        width: 330px; /* Or a fixed width like 300px */
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .ResultPart img {
+        width: 50%; /* Or whatever size you deem appropriate for larger tablets */
+    }
+}
+
+/*
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -39,4 +72,4 @@
 
 .read-the-docs {
   color: #888;
-}
+} */

@@ -30,9 +30,11 @@ This application is built with React.js & Javascript
 ## How to
 Insert your Birthday and click the `"Let's Check"` button.
 
+[![How to Video](/public/videos/Zodiac%20Test%20Video.mp4)]
+
 Your Birthday Data won't be stored or used for any purpose.
 
-## How to
+## License
 All rights reserved by [Alice Choi](https://github.com/virgoeun).
 
 ---

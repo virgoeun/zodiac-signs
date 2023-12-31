@@ -4,7 +4,7 @@ import React, { useState } from "react";
 const ZodiacCalculator = () => {
   const [showResult, setShowResult] = useState(false);
   const [birthday, setBirthday] = useState("");
-  const [zodiacData, setZodiacData] = useState({ animal: "", image: "" });
+  const [zodicaData, setZodiacData] = useState({ animal: "", image: "" });   
 
   const zodiacAnimals = [
     "Rat",
@@ -68,7 +68,7 @@ const ZodiacCalculator = () => {
                 setBirthday(e.target.value);
               }}
               style={{
-                border: "2px solid pink",
+                border: "2px solid #E1BFAA",
                 borderRadius: "5px",
                 padding: "5px",
                 backgroundColor: "#EFD4D4", // Set the background color to pink
@@ -139,3 +139,4 @@ const ZodiacCalculator = () => {
 };
 
 export default ZodiacCalculator;
+

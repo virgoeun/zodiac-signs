@@ -1,7 +1,7 @@
 # My Zodiac Sign Finder
 ![main image](/public/images/main2.png)
 
-[Deployed Site](https://my-zodiac-sign.onrender.com/)
+[Deployment Link](https://my-zodiac-sign.onrender.com/)
 
 ## Introduction
 The Chinese zodiac is a cycle of twelve animal signs that represent different years. The particular animal assigned to a year depends on the lunar year of a person's birth. In this ancient system, each year in a 12-year cycle is associated with a specific animal.
@@ -24,19 +24,31 @@ I'd like to create something fun just to remind myself bacis concepts of React.j
 - Find out which zodiac animals are most compatible with yours.
 
 ## Technologies
-This application is built with React.js & Javascript
-
-## Setup and Installation
-
+- HTML
+- CSS & React Bootstrap
+- JavaScript
+- React
+- React Share 
+- Figma
+- Adobe Illustrator
+- Canva
 
 ## How to
 Insert your Birthday and click the `"Let's Check"` button.
-
-Your Birthday Data won't be stored or used for any purpose.
+You can share this application on Twitter, LinkedIn, and Facebook.
 
 ## License
 All rights reserved by [Alice Choi](https://github.com/virgoeun).
+Your Birthday Data won't be stored or used for any purpose.
 
+## Backlogs
+- Result image share function
+- Extra Information(e.g., Match Zodiac Signs) 
+
+## Extra Links
+Figma Design Canvas[https://www.figma.com/file/q78bPy6rMeQSBSzpAAsEpw/Zodiac?type=design&node-id=0-1&mode=design&t=cEl3vjGlHR8gBqk2-0]
+[Deployment Link](https://my-zodiac-sign.onrender.com/)
+[LinkedIn Article - How I Create React App less than 2 Hours] ()
 ---
 
 Discover your connection to the ancient cycle of the Chinese zodiac with My Zodiac Sign Finder!

@@ -29,6 +29,7 @@ function App() {
       <TwitterShareButton url={currentPageUrl} >
         <TwitterIcon size={32} round={true} />
       </TwitterShareButton>
+   
     </div>
   );
 }

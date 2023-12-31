@@ -54,11 +54,10 @@ const ZodiacCalculator = () => {
               style={{
                 fontSize: "25px",
                 paddingTop: "10px",
-                marginTop:"80px",
+                marginTop: "80px",
                 color: "#8B5C45",
               }}
             >
-         
               Enter Your Birthday
             </p>
             <input
@@ -66,6 +65,11 @@ const ZodiacCalculator = () => {
               value={birthday}
               onChange={(e) => {
                 setBirthday(e.target.value);
+              }}
+              style={{
+                backgroundColor: "#EFD4D4", // Set the background color to pink
+                color: "grey", // Set the text color
+                // Add any additional styling as needed
               }}
             />
           </label>
@@ -117,10 +121,7 @@ const ZodiacCalculator = () => {
       )}
 
       <div>
-        <p
-          className="datatext"
-          style={{ fontSize: "12px" }}
-        >
+        <p className="datatext" style={{ fontSize: "12px" }}>
           Your Birthday Data is neither stored nor used.
         </p>
       </div>

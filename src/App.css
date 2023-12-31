@@ -63,6 +63,12 @@ body, html {
 .shareButton {
     margin-right: 10px; /* Adjust the margin as needed */
 }
+
+input[type="date"] {
+  background-color: #EFD4D4; /* Explicitly set a background color */
+  color: grey; /* Set text color */
+  /* Add other styles as needed */
+}
 /*
 .logo {
   height: 6em;

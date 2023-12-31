@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+
 const ZodiacCalculator = () => {
   const [showResult, setShowResult] = useState(false);
   const [birthday, setBirthday] = useState("");
@@ -52,7 +53,8 @@ const ZodiacCalculator = () => {
             <p
               style={{
                 fontSize: "25px",
-                paddingTop: "30px",
+                paddingTop: "10px",
+                marginTop:"80px",
                 color: "#8B5C45",
               }}
             >
@@ -117,13 +119,13 @@ const ZodiacCalculator = () => {
       <div>
         <p
           className="datatext"
-          style={{ fontSize: "12px", paddingTop: "40px" }}
+          style={{ fontSize: "12px" }}
         >
           Your Birthday Data is neither stored nor used.
         </p>
       </div>
       <div>
-        <p className="datatext" style={{ fontSize: "8px", paddingTop: "40px" }}>
+        <p className="datatext" style={{ fontSize: "10px" }}>
           @AliceChoi all rights reserved.
         </p>
       </div>

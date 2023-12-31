@@ -1,7 +1,7 @@
 
  #root {
   margin: 0 auto;
-  padding: 5rem;
+  padding: 2rem;
   text-align: center;
    z-index: 1;
   
@@ -29,7 +29,7 @@ body {
 body, html {
     height: 100%;
     margin: 0;
-    overflow: hidden;
+    overflow: auto;
 }
 
 #myVideo {
@@ -58,6 +58,10 @@ body, html {
     .ResultPart img {
         width: 50%; /* Or whatever size you deem appropriate for larger tablets */
     }
+}
+
+.shareButton {
+    margin-right: 10px; /* Adjust the margin as needed */
 }
 /*
 .logo {

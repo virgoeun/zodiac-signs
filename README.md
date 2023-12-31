@@ -33,6 +33,8 @@ I'd like to create something fun just to remind myself bacis concepts of React.j
 - Adobe Illustrator
 - Canva
 
+![Figma WireFrame image](/public/images/figma%20wireframe.png)
+
 ## How to
 Insert your Birthday and click the `"Let's Check"` button.
 You can share this application on Twitter, LinkedIn, and Facebook.
@@ -46,9 +48,9 @@ Your Birthday Data won't be stored or used for any purpose.
 - Extra Information(e.g., Match Zodiac Signs) 
 
 ## Extra Links
-Figma Design Canvas[https://www.figma.com/file/q78bPy6rMeQSBSzpAAsEpw/Zodiac?type=design&node-id=0-1&mode=design&t=cEl3vjGlHR8gBqk2-0]
-[Deployment Link](https://my-zodiac-sign.onrender.com/)
-[LinkedIn Article - How I Create React App less than 2 Hours] ()
+- [Figma Design](https://www.figma.com/file/q78bPy6rMeQSBSzpAAsEpw/Zodiac?type=design&node-id=0-1&mode=design&t=cEl3vjGlHR8gBqk2-0)
+- [Deployment Link](https://my-zodiac-sign.onrender.com/)
+- [LinkedIn Article: How I Create React App less than 2 Hours](https://www.linkedin.com/pulse/copy-how-i-created-simple-react-app-less-than-2-hours-choi-opppe/?trackingId=1TvxlIJQQeSgvvwnfunQGQ%3D%3D)
 ---
 
 Discover your connection to the ancient cycle of the Chinese zodiac with My Zodiac Sign Finder!

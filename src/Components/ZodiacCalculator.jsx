@@ -4,7 +4,7 @@ import React, { useState } from "react";
 const ZodiacCalculator = () => {
   const [showResult, setShowResult] = useState(false);
   const [birthday, setBirthday] = useState("");
-  const [zodiacData, setZodiacData] = useState({ animal: "", image: "" });   
+  const [zodiacData, setZodiacData] = useState({ animal: "", image: "" });
 
   const zodiacAnimals = [
     "Rat",

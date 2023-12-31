@@ -62,11 +62,15 @@ const ZodiacCalculator = () => {
             </p>
             <input
               type="date"
+              placeholder="Enter Your Birthday"
               value={birthday}
               onChange={(e) => {
                 setBirthday(e.target.value);
               }}
               style={{
+                border: "2px solid pink",
+                borderRadius: "5px",
+                padding: "5px",
                 backgroundColor: "#EFD4D4", // Set the background color to pink
                 color: "grey", // Set the text color
                 // Add any additional styling as needed
